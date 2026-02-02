@@ -1,0 +1,434 @@
+// Flex-Row;
+@mixin df-row-between-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+@mixin df-row-between-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin df-row-between-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+@mixin df-row-around-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+}
+@mixin df-row-around-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+@mixin df-row-around-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: end;
+}
+@mixin df-row-evenly-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: start;
+}
+@mixin df-row-evenly-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@mixin df-row-evenly-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: end;
+}
+@mixin df-row-start-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+@mixin df-row-start-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+@mixin df-row-start-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: end;
+}
+@mixin df-row-center-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+@mixin df-row-center-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@mixin df-row-center-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+@mixin df-row-end-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: start;
+}
+@mixin df-row-end-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+@mixin df-row-end-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+}
+@mixin df-row-reverse-between-start {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: start;
+}
+@mixin df-row-reverse-between-center {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin df-row-reverse-between-end {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: end;
+}
+@mixin df-row-reverse-around-start {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: start;
+}
+@mixin df-row-reverse-around-center {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+@mixin df-row-reverse-around-end {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: end;
+}
+@mixin df-row-reverse-evenly-start {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: start;
+}
+@mixin df-row-reverse-evenly-center {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@mixin df-row-reverse-evenly-end {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: end;
+}
+@mixin df-row-reverse-start-start {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: start;
+}
+@mixin df-row-reverse-start-center {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: center;
+}
+@mixin df-row-reverse-start-end {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: end;
+}
+@mixin df-row-reverse-center-start {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: start;
+}
+@mixin df-row-reverse-center-center {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+@mixin df-row-reverse-center-end {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: end;
+}
+@mixin df-row-reverse-end-start {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: start;
+}
+@mixin df-row-reverse-end-center {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: center;
+}
+@mixin df-row-reverse-end-end {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: end;
+}
+// Flex-Column;
+@mixin df-column-between-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+@mixin df-column-between-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin df-column-between-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+@mixin df-column-around-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+@mixin df-column-around-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+@mixin df-column-around-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+}
+@mixin df-column-evenly-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+@mixin df-column-evenly-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@mixin df-column-evenly-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: end;
+}
+@mixin df-column-start-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+@mixin df-column-start-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+@mixin df-column-start-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+@mixin df-column-center-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+@mixin df-column-center-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@mixin df-column-center-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+@mixin df-column-end-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+@mixin df-column-end-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+@mixin df-column-end-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+@mixin df-column-reverse-between-start {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: start;
+}
+@mixin df-column-reverse-between-center {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin df-column-reverse-between-end {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: end;
+}
+@mixin df-column-reverse-around-start {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: start;
+}
+@mixin df-column-reverse-around-center {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+@mixin df-column-reverse-around-end {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: end;
+}
+@mixin df-column-reverse-evenly-start {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: start;
+}
+@mixin df-column-reverse-evenly-center {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@mixin df-column-reverse-evenly-end {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: end;
+}
+@mixin df-column-reverse-start-start {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: start;
+}
+@mixin df-column-reverse-start-center {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: center;
+}
+@mixin df-column-reverse-start-end {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: end;
+}
+@mixin df-column-reverse-center-start {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: start;
+}
+@mixin df-column-reverse-center-center {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+@mixin df-column-reverse-center-end {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: end;
+}
+@mixin df-column-reverse-end-start {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: start;
+}
+@mixin df-column-reverse-end-center {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: center;
+}
+@mixin df-column-reverse-end-end {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: end;
+}
